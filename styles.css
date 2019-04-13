@@ -1,0 +1,18 @@
+body {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.submission, input{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+img {
+    border: 1px black solid;
+}
+
+
+

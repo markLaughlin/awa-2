@@ -1,0 +1,39 @@
+<!-- Building on the previous app, create an app that lets users choose to display between 1 and 50 random dog images,
+   then loads the images in the console. 
+   This app should adhere to all of the requirements from the first one, in addition to displaying the images in the DOM.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Asynchronous Web Apps Assignment Two</title>
+    <meta name="description" content="An asynchronous web application">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Those Adorable Dogs!</h1>
+
+    <p>Enter the number (between 1 and 50) of dog images you wish to see: </p>
+      
+      <form>
+        <input type="number" name="quantity" min="1" max="50" value="3" class="nDogs"> 
+        <input type="submit" class="submission">
+      </form>
+
+      <p></p>
+
+      <div class="container">
+        
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+
+</html>
+
